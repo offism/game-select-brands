@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#mbody{
+    position: relative;
+}
+
+
+img{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+}
+
+#inputName{
+    padding: 25px 0 0px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inputName input{
+    outline: none;
+    width: 250px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 5px;
+}
+#newBtn{
+    font-size: 18px;
+    padding: 5px;
+}
+.alert{
+    margin-top: 10px;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    transition: all ease .4s;
+}
+
+.won-alertion{
+    height: 260px;
+    width: 410px;
+    font-size: 45px;
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+}
+
+.won-alertion img{
+    width: 345px;
+    height: 180px;
+    margin-left: 20px;
+}
+
+.won-alertion p{
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    font-weight: 500;
+    color: rgb(212,175,55);
+}
